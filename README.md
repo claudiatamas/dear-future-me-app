@@ -12,7 +12,7 @@ You can also read letters that have been sent from your past self up to the pres
 
 ## How It Works
 
-1. **Write a Letter:** Compose a letter and choose whether to send it to your future or past self.
+1. **Write a Letter:** Compose a letter and choose to send it to your future self or to cancel.
 2. **Send:** Your letter is saved and timestamped.
 3. **Read Letters:** Browse through letters sent from your past self and see how you’ve changed over time.
 
