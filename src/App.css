@@ -1,0 +1,209 @@
+body {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url("./assets/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  height: 100vh;
+  font-family: 'Georgia', serif;
+  color: #c9aa7f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-container {
+  max-width: 800px;
+  width: 90%;
+  padding: 2.5rem 3rem;
+  background: rgba(15, 10, 5, 0.85); 
+  border-radius: 2rem;
+  box-shadow:
+    0 8px 15px rgba(0, 0, 0, 0.7),
+    inset 0 0 15px rgba(38, 25, 13, 0.85); 
+  position: relative;
+}
+
+h1 {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2.8rem;
+  letter-spacing: 0.05em;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.8);
+}
+
+.home-card button {
+  margin: 1rem 0.75rem;
+  padding: 0.85rem 2rem;
+  text-align: center;
+  font-size: 1.1rem;
+  border-radius: 0.7rem;
+  background-color: #c9aa7f;
+  border: 2px solid #8B6F47;
+  color: #5B4636;
+  cursor: pointer;
+  transition: 
+    background-color 0.4s ease,
+    color 0.4s ease,
+    transform 0.25s ease;
+  box-shadow: 0 4px 6px rgba(65, 55, 40, 0.4);
+  font-weight: 600;
+  font-family: 'Georgia', serif;
+  user-select: none;
+}
+.home-card button:hover {
+  background-color: #C49E78;
+  color: #3E2F1C;
+  transform: translateY(-3px);
+  box-shadow:
+    0 8px 15px rgba(196, 158, 120, 0.7);
+}
+
+.home-card button:active {
+  transform: translateY(-1px);
+  box-shadow:
+    0 4px 8px rgba(196, 158, 120, 0.5);
+}
+
+/* FORMULAR */
+.LetterForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  width: 600px;
+}
+
+.LetterForm label {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+  color: #c9aa7f;
+}
+
+.LetterForm input[type="text"],
+.LetterForm input[type="date"],
+.LetterForm textarea {
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  border-radius: 0.6rem;
+  border: 1.8px solid #43392b;
+  background-color: #2f2a21;
+  color: #f1e6d8;
+  font-family: inherit;
+  resize: vertical;
+  min-height: 2rem;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.LetterForm textarea {
+  min-height: 10rem;
+}
+
+/* Container butoane aliniate orizontal */
+.LetterForm .button-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.LetterForm button[type="submit"] {
+  flex: 1;
+  max-width: 200px;
+  padding: 0.75rem;
+  text-align: center;
+  font-size: 1.1rem;
+  border-radius: 0.7rem;
+  background-color: #c9aa7f;
+  border: 2px solid #8B6F47;
+  color: #5B4636;
+  cursor: pointer;
+  transition: 
+    background-color 0.4s ease,
+    color 0.4s ease,
+    transform 0.25s ease;
+  box-shadow: 0 4px 6px rgba(65, 55, 40, 0.4);
+  font-weight: 600;
+  font-family: 'Georgia', serif;
+  user-select: none;
+}
+
+.LetterForm button[type="submit"]:hover {
+  background-color: #C49E78;
+  color: #3E2F1C;
+}
+
+.cancel-button {
+  flex: 1;
+  max-width: 100px;
+  color: #c9aa7f;
+  background-color: transparent;
+  border: 2px solid #c9aa7f;
+  cursor: pointer;
+  padding: 0.75rem;
+  font-family: 'Georgia', serif;
+  border-radius: 0.7rem;
+  user-select: none;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.cancel-button:hover {
+  color: #e4bf8a;
+  background-color: #3f3a30;
+  border-color: #e4bf8a;
+}
+
+@media (max-width: 480px) {
+  .app-container {
+    margin: 1rem;
+    padding: 1.5rem 1.8rem;
+  }
+  .LetterForm {
+    width: 100%;
+  }
+  .LetterForm .button-row {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  .LetterForm button[type="submit"],
+  .cancel-button {
+    max-width: 100%;
+    flex: none;
+  }
+  .LetterForm button[type="submit"] {
+    font-size: 1rem;
+    padding: 0.6rem;
+  }
+}
+
+
+.btn {
+  margin: 1rem 0.75rem;
+  padding: 0.65rem 1rem;
+  text-align: center;
+  font-size: 0.8rem;
+  border-radius: 0.7rem;
+  background-color: #c9aa7f;
+  border: 2px solid #8B6F47;
+  color: #5B4636;
+  cursor: pointer;
+  transition: 
+    background-color 0.4s ease,
+    color 0.4s ease,
+    transform 0.25s ease;
+  box-shadow: 0 4px 6px rgba(65, 55, 40, 0.4);
+  font-weight: 600;
+  font-family: 'Georgia', serif;
+  user-select: none;
+}
+
+.btn:hover {
+  background-color: #C49E78;
+  color: #3E2F1C;
+  border: 2px solid #8B6F47;
+  transform: translateY(-3px);
+  box-shadow:
+    0 8px 15px rgba(196, 158, 120, 0.7);}
