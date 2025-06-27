@@ -1,12 +1,25 @@
-# React + Vite
+# Dear Future Me
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Dear Future Me is a personal letter-writing app that lets you write letters addressed to your future or past self.  
+You can also read letters that have been sent from your past self up to the present moment.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Write and send letters to your future or past self
+- View letters sent from the past up to the current time
+- Simple and intuitive interface to keep your memories alive
+- Store your thoughts, goals, and reflections across time
 
-## Expanding the ESLint configuration
+## How It Works
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Write a Letter:** Compose a letter and choose whether to send it to your future or past self.
+2. **Send:** Your letter is saved and timestamped.
+3. **Read Letters:** Browse through letters sent from your past self and see how you’ve changed over time.
+
+## Getting Started
+
+To run the app locally:
+
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/yourusername/dear-future-me.git
