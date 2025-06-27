@@ -1,6 +1,6 @@
 # Dear Future Me
 
-Dear Future Me is a personal letter-writing app that lets you write letters addressed to your future or past self.  
+Dear Future Me is a personal letter-writing app that lets you write letters addressed to your future self.  
 You can also read letters that have been sent from your past self up to the present moment.
 
 ## Features
